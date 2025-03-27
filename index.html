@@ -1,0 +1,941 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VIKINGOS - Menú</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+   
+</head>
+<body>
+    <div class="container">
+        <nav>
+            <h1>VIKINGOS</h1>
+            <ul>
+                <li><a href="#compartir">A Compartir</a></li>
+                <li><a href="#Bocadillos">Bocadillos</a></li>
+                <li><a href="#ClubHouse">Club House</a></li>
+                <li><a href="#Croqetas">Croquetas</a></li>
+                <li><a href="#Del-mar">Del Mar</a></li>
+                <li><a href="#Ensaladas">Ensaladas</a></li>
+                <li><a href="#Hamburguesas">Hamburguesas</a></li>
+                <li><a href="#Huevos-rotos">Huevos Rotos</a></li>
+                <li><a href="#Parrila">Parrilla</a></li>
+                <li><a href="#Patatas">Patatas</a></li>
+                <li><a href="#Pizzas">Pizzas 1/2 Metro</a></li>
+                <li><a href="#Platos-Combinados">Platos Combinados</a></li>
+                <li><a href="#Sandwiches">Sandwiches</a></li>
+                <li><a href="#Tex-mex">Tex-Mex</a></li>
+            </ul>
+            
+            <button id="admin-toggle" class="admin-toggle">
+                <i class="fas fa-user-shield"></i> Admin
+            </button>
+            
+        </nav>
+        <main>
+            <div class="view-controls">
+                <button class="view-btn active" data-view="grid">
+                    <i class="fas fa-th"></i> Cuadrícula
+                </button>
+                <button class="view-btn" data-view="list">
+                    <i class="fas fa-list"></i> Lista
+                </button>
+                <button class="view-btn" data-view="compact">
+                    <i class="fas fa-bars"></i> Compacto
+                </button>
+            </div>
+            <!-- Sección A Compartir -->
+            <section id="compartir" class="menu-section">
+                <h2>A Compartir</h2>
+                <div class="menu-grid">
+                    <div class="menu-item">
+                        <img src="" alt="combo vikingo">
+                        <div class="menu-item-content">
+                            <h3>Combo vikingo</h3>
+                            <p class="description">tequeños de mozzarella, tequeños de nutella, croquetas mixtas, alitas y aros de cebolla.</p>
+                            <p class="price">31.00€</p>
+                        </div>
+                    </div>
+
+                    <div class="menu-item">
+                        <img src="" alt="tabla-ibericos">
+                        <div class="menu-item-content">
+                            <h3>Tabla de ibericos</h3>
+                            <p class="description">Jamon iberico,lomo,chorizo y salchichon.</p>
+                            <p class="price">25.00€</p>
+                        </div>
+                    </div>
+
+                    <div class="menu-item">
+                        <img src="" alt="Jamon iberico">
+                        <div class="menu-item-content">
+                            <h3>Racion de jamon iberico</h3>
+                            <p class="description">Jamon de cebo de campo iberico 50% raza iberica.</p>
+                            <p class="price">25.00€</p>
+                        </div>
+                    </div>
+
+                    <div class="menu-item">
+                        <img src="" alt="tabla-quesos">
+                        <div class="menu-item-content">
+                            <h3>Tabla de quesos</h3>
+                            <p class="description"> selecion quesos nacionales e internacionales </p>
+                            <p class="price">20.00€</p>
+                        </div>
+                    </div>
+
+                    <div class="menu-item">
+                        <img src="fotos/combodealitas.jpg" alt="Combo Alitas">
+                        <div class="menu-item-content">
+                            <h3>Combo alitas surco</h3>
+                            <p class="description">Alitas tex-mex,Alitas Bbq,Alitas marinadas en salsa de la casa,Alitas rebozadas,Alitas hot y pico de gallo.</p>
+                            <p class="price">30.00€</p>
+                        </div>
+                    </div>
+
+                    <div class="menu-item">
+                        <img src="" alt="Tomates aliñados">
+                        <div class="menu-item-content">
+                            <h3>Tomates aliñados</h3>
+                            <p class="description">Tomates gourmet aderezadas con salsa de la casa.</p>
+                            <p class="price">9.50€</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Sección Bocadillos -->
+            <section id="Bocadillos" class="menu-section">
+                <h2>Bocadillos</h2>
+                <div class="menu-grid">
+                    <!-- Bocadillo de Lomo -->
+                    <div class="menu-item">
+                        <img src="" alt="Bocadillo de Lomo">
+                        <div class="menu-item-content">
+                            <h3>Bocadillo de lomo</h3>
+                            <p class="description">Lechuga,tomate,cebolla,lomo y queso.</p>
+                            <p class="price">6.00€</p>
+                        </div>
+                    </div>
+
+                    <!-- Bocadillo de Pollo -->
+                    <div class="menu-item">
+                        <img src="" alt="Bocadillo de Pollo">
+                        <div class="menu-item-content">
+                            <h3>Bocadillo de pollo</h3>
+                            <p class="description">Lechuga,tomate,cebolla,filete de pollo y queso.</p>
+                            <p class="price">6.00€</p>
+                        </div>
+                    </div>
+
+                    <!-- Bocadillo de panceta -->
+                    <div class="menu-item">
+                        <img src="" alt="Bocadillo de panceta">
+                        <div class="menu-item-content">
+                            <h3>Bocadillo de panceta</h3>
+                            <p class="description">panceta con tomate o queso.</p>
+                            <p class="price">6.00€</p>
+                        </div>
+                    </div>
+
+                    <!-- Bocadillo de Bacon -->
+                    <div class="menu-item">
+                        <img src="" alt="Bocadillo de Bacon">
+                        <div class="menu-item-content">
+                            <h3>Bocadillo de Bacon</h3>
+                            <p class="description">Bacon crujiente con queso fundido o tomate</p>
+                            <p class="price">6.00€</p>
+                        </div>
+                    </div>
+
+                    <!-- Bocadillo de Calamares -->
+                    <div class="menu-item">
+                        <img src="" alt="Bocadillo de Calamares">
+                        <div class="menu-item-content">
+                            <h3>Bocadillo de Calamares</h3>
+                            <p class="description">Calamares fritos.</p>
+                            <p class="price">6.80€</p>
+                        </div>
+                    </div>
+
+                    <!-- Bocadillo de Ternera -->
+                    <div class="menu-item">
+                        <img src="fotos/bocadilladeternera.jpg" alt="Bocadillo de ternera">
+                        <div class="menu-item-content">
+                            <h3>Bocadillo de Ternera</h3>
+                            <p class="description">Lechuga,tomate,cebolla,filete de ternera y queso.</p>
+                            <p class="price">6.50€</p>
+                        </div>
+                    </div>
+
+                    <!-- Bocadillo de Jamón ibérico -->
+                    <div class="menu-item">
+                        <img src="" alt="Bocadillo de Jamon iberico">
+                        <div class="menu-item-content">
+                            <h3>Bocadillo de Jamon iberico</h3>
+                            <p class="description">Jamon iberico</p>
+                            <p class="price">6.50€</p>
+                        </div>
+                    </div>
+
+                    <!-- Bocadillo VIKINGOS -->
+                    <div class="menu-item">
+                        <img src="" alt="Bocadillo VIKINGOS">
+                        <div class="menu-item-content">
+                            <h3>Bocadillo VIKINGOS</h3>
+                            <p class="description">Secreto de cerdo,queso y mojo picon.</p>
+                            <p class="price">7.00€</p>
+                        </div>
+                    </div>
+
+                    <!-- Bocadillo de pata asada -->
+                    <div class="menu-item">
+                        <img src="" alt="Bocadillo de pata asada">
+                        <div class="menu-item-content">
+                            <h3>Bocadillo de pata asada</h3>
+                            <p class="description">Jamon de cerdo asado a baja temperatura,tomate,queso y mojo picon.</p>
+                            <p class="price">6.50€</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Sección Club House -->
+            <section id="ClubHouse" class="menu-section">
+                <h2>Club House</h2>
+                <div class="menu-grid">
+                    <div class="menu-item">
+                        <img src="fotos/clubhousedepollo.jpg" alt="Club House de Pollo">
+                        <div class="menu-item-content">
+                            <h3>Club House pollo </h3>
+                            <p class="description">tres pisos de pan tajado,lechuga,tomate,cebolla,jamon york,queso gouda,huevo,pollo desmechado en alioli y patatas fritas.</p>
+                            <p class="price">10.80€</p>
+                        </div>
+                    </div>
+
+                    <div class="menu-item">
+                        <img src="" alt="Club House lomo">
+                        <div class="menu-item-content">
+                            <h3>Club House Lomo</h3>
+                            <p class="description">tres pisos de pan tajado,lechuga,tomate,cebolla,jamon york,queso gouda,huevo,lomo de credo y patatas.</p>
+                            <p class="price">10.80€</p>
+                        </div>
+                    </div>
+
+                    <div class="menu-item">
+                        <img src="" alt="Club House mixto">
+                        <div class="menu-item-content">
+                            <h3>Club House Mixto</h3>
+                            <p class="description">doble jamon,doble queso y doble huevo.</p>
+                            <p class="price">11.95€</p>
+                        </div>
+                    </div>
+
+                <div class="menu-item">
+                    <img src="" alt="Club House VIKINGOS">
+                    <div class="menu-item-content">
+                        <h3>Club House VIKINGOS</h3>
+                        <p class="description">tres pisos de pan tajado,lechuga,tomate,cebolla,jamon york,queso gouda,huevo,pullet pork y patatas.</p>
+                        <p class="price">11.50€</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección Croquetas -->
+        <section id="Croqetas" class="menu-section">
+            <h2>Croquetas</h2>
+            <div class="menu-grid">
+                <div class="menu-item">
+                    <img src="" alt="Croquetas de Jamón">
+                    <div class="menu-item-content">
+                        <h3>De Jamón Ibérico</h3>
+                        <p class="description">Cremosas croquetas de jamón ibérico (8 uds)</p>
+                        <p class="price">8.50€</p>
+                    </div>
+                </div>
+
+                <div class="menu-item">
+                    <img src="" alt="Croquetas de cebolla">
+                    <div class="menu-item-content">
+                        <h3>croquetas de cebolla caramelizada</h3>
+                        <p class="description">Croquetas de cebolla caramelizada y queso (8 uds)</p>
+                        <p class="price">8.50€</p>
+                    </div>
+                </div>
+
+                <div class="menu-item">
+                    <img src="img/croquetas-boletus.jpg" alt="Croquetas de Boletus">
+                    <div class="menu-item-content">
+                        <h3>De Boletus</h3>
+                        <p class="description">Croquetas de boletus edulis (6 uds)</p>
+                        <p class="price">8.50€</p>
+                    </div>
+                </div>
+
+                <div class="menu-item">
+                    <img src="" alt="mix de croquetas">
+                    <div class="menu-item-content">
+                        <h3>mix de croquetas</h3>
+                        <p class="description">croquetas de jamon.croquetas de boletus y croquetas de cebolla.(12 uds total)</p>
+                        <p class="price">12.50€</p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Sección Del Mar -->
+        <section id="Del-mar" class="menu-section">
+            <h2>Del Mar</h2>
+            <div class="menu-grid">
+                <div class="menu-item">
+                    <img src="" alt="Calamares">
+                    <div class="menu-item-content">
+                        <h3>Calamares a la andaluza</h3>
+                        <p class="description">Calamares rebozados  fritos con limón.</p>
+                        <p class="price">12.50€</p>
+                    </div>
+                </div>
+
+                <div class="menu-item">
+                    <img src="" alt="chopitos">
+                    <div class="menu-item-content">
+                        <h3>chopitos</h3>
+                        <p class="description">Chopitos rebozados fritos con limon.</p>
+                        <p class="price">13.00€</p>
+                    </div>
+                </div>
+
+                <div class="menu-item">
+                    <img src="" alt="fritura de Pescado">
+                    <div class="menu-item-content">
+                        <h3>fritura variada</h3>
+                        <p class="description">boquerones,calamares y chopitos rebozados con limon </p>
+                        <p class="price">18.00€</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección Ensaladas -->
+        <section id="Ensaladas" class="menu-section">
+            <h2>Ensaladas</h2>
+            <div class="menu-grid">
+                <div class="menu-item">
+                    <img src="" alt="Ensalada César">
+                    <div class="menu-item-content">
+                        <h3>Ensalada César</h3>
+                        <p class="description">Lechuga,tomate,pollo crugiente,picatostes, queso parmesano y salsa césar</p>
+                        <p class="price">12.80€</p>
+                    </div>
+                </div>
+
+                <div class="menu-item">
+                    <img src="" alt="Ensalada Mixta">
+                    <div class="menu-item-content">
+                        <h3>Ensalada Mixta</h3>
+                        <p class="description">lechuga,tomate,cebolla,maiz y aceituna negra.</p>
+                        <p class="price">8.90</p>
+                    </div>
+                </div>
+
+                <div class="menu-item">
+                    <img src="" alt="Ensalada mixta con atun">
+                    <div class="menu-item-content">
+                        <h3>Ensalada mixta con atun</h3>
+                        <p class="description">lechuga,tomate,cebolla,maiz,aceituna negra y atun</p>
+                        <p class="price">9.80€</p>
+                    </div>
+                </div>
+
+                <div class="menu-item">
+                    <img src="" alt="Ensalada de queso de cabra">
+                    <div class="menu-item-content">
+                        <h3>Ensalada de queso de cabra</h3>
+                        <p class="description">lechuga,tomate,cebolla,queso de cabra,frutos secos.</p>
+                        <p class="price">11.20€</p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Sección Hamburguesas -->
+        <section id="Hamburguesas" class="menu-section">
+            <h2>Hamburguesas</h2>
+            <div class="menu-grid">
+                <div class="menu-item">
+                    <img src="fotos/hamburguesaclasica1.jpg" alt="Hamburguesa Clásica">
+                    <div class="menu-item-content">
+                        <h3>Hamburguesa Clásica</h3>
+                        <p class="description">Carne de vacuno,lechuga,tomate,cebolla,jamon york y queso gouda.</p>
+                        <p class="price">6.50€</p>
+                    </div>
+                </div>
+
+                <div class="menu-item">
+                    <img src="" alt="Hamburguesa VIKINGOS">
+                    <div class="menu-item-content">
+                        <h3>Hamburguesa VIKINGOS</h3>
+                        <p class="description">lechuga,tomate,huevo,jamon york,queso gouda,Bacon,carne de vacuno y aros de cebolla.</p>
+                        <p class="price">12.80€</p>
+                    </div>
+                </div>
+
+                <div class="menu-item">
+                    <img src="fotos/hamburguesadepollo.jpg" alt="Hamburguesa de Pollo">
+                    <div class="menu-item-content">
+                        <h3>Hamburguesa de Pollo</h3>
+                        <p class="description">lechuga,tomate,cebolla,huevo,jamon york,queso gouda,Bacon.pepinillos y filete de pollo apanado.</p>
+                        <p class="price">8.50€</p>
+                    </div>
+                </div>
+
+                <div class="menu-item">
+                    <img src="" alt="smash burger">
+                    <div class="menu-item-content">
+                        <h3>smash burger</h3>
+                        <p class="description">Carne de vacuno,extra de queso"gouda y cheddar",extra de bacon,cebolla caramelizada y pepinillos.</p>
+                        <p class="price">15.50€</p>
+                    </div>
+                </div>
+
+                <div class="menu-item">
+                    <img src="" alt="Hamburguesa guinnes">
+                    <div class="menu-item-content">
+                        <h3>Hamburguesa Guinnes</h3>
+                        <p class="description">lechuga,tomate,cebolla,extra de queso gouda,mermelada de Bacon y carne de lomo de buey irlandes macerada con cerveza de malta Guinnes.</p>
+                        <p class="price">12.80€</p>
+                    </div>
+                </div>
+
+                <div class="menu-item">
+                    <img src="" alt="Hamburguesa wagyu">
+                    <div class="menu-item-content">
+                        <h3>Hamburguesa wagyu</h3>
+                        <p class="description">carne de vacuno,cebolla caramelizada,queso "gouda y cheddar y salsac ranch</p>
+                        <p class="price">12.80€</p>
+                    </div>
+                </div>
+
+                <div class="menu-item">
+                    <img src="fotos/hamburguesaamericana.jpg" alt="Hamburguesa americana">
+                    <div class="menu-item-content">
+                        <h3>Hamburguesa americana</h3>
+                        <p class="description">lechuga,tomate,cebolla,huevo,jamon york,queso gouda,Bacon,carne de vacuno y salsa de la casa.</p>
+                        <p class="price">8.50€</p>
+                    </div>
+                </div>
+
+                <div class="menu-item">
+                    <img src="g" alt="Hamburguesa Vegetal">
+                    <div class="menu-item-content">
+                        <h3>Hamburguesa vegetale</h3>
+                        <p class="description">lechuga,tomate,cebolla,queso gouda,carne Vegetal y salsa de la casa.</p>
+                        <p class="price">9.50€</p>
+                    </div>
+                </div>
+                <h2>Todas nuestras hamburguesas incluyen patata frita.</h2>
+            </div>
+        </section>
+
+        <!-- Sección Huevos Rotos -->
+        <section id="Huevos-rotos" class="menu-section">
+            <h2>Huevos Rotos</h2>
+            <div class="menu-grid">
+                <div class="menu-item">
+                    <img src="fotos/huevosrotosconjamon1.jpg" alt="Huevos con Jamón">
+                    <div class="menu-item-content">
+                        <h3>Con Jamón Ibérico</h3>
+                        <p class="description">5 Huevos rotos sobre patatas con jamón ibérico</p>
+                        <p class="price">13.00€</p>
+                    </div>
+                </div>
+
+                <div class="menu-item">
+                    <img src="" alt="Huevos con Chorizo">
+                    <div class="menu-item-content">
+                        <h3>Con Chorizo</h3>
+                        <p class="description">5 Huevos rotos sobre patatas con picadillo de  chorizo.</p>
+                        <p class="price">12.00€</p>
+                    </div>
+                </div>
+
+                <div class="menu-item">
+                    <img src="" alt="Huevos con Bacon">
+                    <div class="menu-item-content">
+                        <h3>Con Bacon</h3>
+                        <p class="description">5 Huevos rotos sobre patatas con bacon a la plancha.</p>
+                        <p class="price">12.00€</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección Parrilla -->
+        <section id="Parrila" class="menu-section">
+            <h2>Parrilla</h2>
+            <div class="menu-grid">
+                <div class="menu-item">
+                    <img src="" alt="parillada de 1 Metro">
+                    <div class="menu-item-content">
+                        <h3>parrilada de 1 Metro "8pax"</h3>
+                        <p class="description">pollo.ternera,cerdo,morcilla,chistorra,chorizo,pimientos asados patatas y salsas de la casa.</p>
+                        <p class="price">90.00€</p>
+                    </div>
+                </div>
+
+                <div class="menu-item">
+                    <img src="" alt="parrilada de 1/2 Metro">
+                    <div class="menu-item-content">
+                        <h3>parrilada de 1/2 Metro "4pax"</h3>
+                        <p class="description">pollo.ternera,cerdo,morcilla,chistorra,chorizo,pimientos asados patatas y salsas de la casa.</p>
+                        <p class="price">50.00€</p>
+                    </div>
+                </div>
+
+                <div class="menu-item">
+                    <img src="" alt="parillada argentina">
+                    <div class="menu-item-content">
+                        <h3>Parrillada argentina</h3>
+                        <p class="description">churrasco de ternera,churrasco de pollo,secreto de cerdo,panceta,chorizo criollo y pimientos asados.</p>
+                        <p class="price">25.00€</p>
+                    </div>
+                </div>
+
+                <div class="menu-item">
+                    <img src="fotos/costillar1.jpg" alt="Costillas">
+                    <div class="menu-item-content">
+                        <h3>Costillar</h3>
+                        <p class="description">Costilla de cerdo iberico asado con salsa bbq y jask daniels,acompañados de patas fritas.</p>
+                        <p class="price">25.00€</p>
+                    </div>
+            </div>
+        </section>
+
+        <!-- Sección Patatas -->
+        <section id="Patatas" class="menu-section">
+            <h2>Patatas</h2>
+            <div class="menu-grid">
+                <div class="menu-item">
+                    <img src="" alt="Patatas Bravas">
+                    <div class="menu-item-content">
+                        <h3>Patatas Bravas</h3>
+                        <p class="description">Nuestra brava es con mojo picon</p>
+                        <p class="price">7.00€</p>
+                    </div>
+                </div>
+
+                <div class="menu-item">
+                    <img src="" alt="cheese bacon">
+                    <div class="menu-item-content">
+                        <h3>cheese Bacon</h3>
+                        <p class="description">Patatas fritas con queso cheddar fundido y bacon crujiente</p>
+                        <p class="price">12.50€</p>
+                    </div>
+                </div>
+
+                <div class="menu-item">
+                    <img src="" alt="alioli">
+                    <div class="menu-item-content">
+                        <h3>alioli</h3>
+                        <p class="description">patata casco con alioli</p>
+                        <p class="price">7.00€</p>
+                    </div>
+                </div>
+
+                <div class="menu-item">
+                    <img src="fotos/patatascanarias - copia.jpg" alt="isleñas">
+                    <div class="menu-item-content">
+                        <h3>Isleñas</h3>
+                        <p class="description">Patatas fritas con almogrote "queso de cabra y mojo picon" y jamon iberico.</p>
+                        <p class="price">12.80€</p>
+
+                    </div>
+                </div>
+
+                <div class="menu-item">
+                    <img src="" alt="salchipapas">
+                    <div class="menu-item-content">
+                        <h3>Salchipapas</h3>
+                        <p class="description">Patatas fritas con salchicha</p>
+                        <p class="price">9.80€</p>
+                    </div>
+                </div>
+
+                <div class="menu-item">
+                    <img src="" alt="chicharreras">
+                    <div class="menu-item-content">
+                        <h3>Chicharreras</h3>
+                        <p class="description">Patatas fritas con pollo desmechado en alioli y queso mozarella fundido.</p>
+                        <p class="price">15.80€</p>
+                    </div>
+                </div>
+
+                <div class="menu-item">
+                    <img src="fotos/patatasmexicanas.jpg" alt="mexicanas">
+                    <div class="menu-item-content">
+                        <h3>mexicanas</h3>
+                        <p class="description">Patatas fritas con queso cheddar fundido,carne de ternera,pico de gallo y guacamole.</p>
+                        <p class="price">17.80€</p>
+                    </div>
+                </div>
+                    
+                <div class="menu-item">
+                        <img src="" alt="americanas">
+                        <div class="menu-item-content">
+                            <h3>Americanas</h3>
+                            <p class="description">Patatas fritas con queso cheddar fundido y pullet pork.</p>
+                            <p class="price">17.80€</p>
+                        </div>
+                </div>
+
+                <div class="menu-item">
+                        <img src="" alt="VIKINGOS">
+                        <div class="menu-item-content">
+                            <h3>VIKINGOS</h3>
+                            <p class="description">Patatas fritas con queso cheddar fundido y carne de ternera picada.</p>
+                            <p class="price">18.00€</p>
+                        </div>    
+                </div>
+
+                <div class="menu-item">
+                            <img src="" alt="locas">
+                            <div class="menu-item-content">
+                                <h3>Locas</h3>
+                                <p class="description">Patatas fritas con jamon york y queso y carne de ternera picada acompañado de keptchup,mostaza y mayonesa.</p>
+                                <p class="price">15.00</p>
+                            </div>
+            </div>
+        </section>
+
+        <!-- Sección Pizzas -->
+        <section id="Pizzas" class="menu-section">
+            <h2>Pizzas 1/2 Metro</h2>
+            <div class="menu-grid">
+                <div class="menu-item">
+                    <img src="fotos/pizzapolloalabrasa2.jpg" alt="pizzadepolloalabrasa">
+                    <div class="menu-item-content">
+                        <h3>Pizza de pollo a la brasa</h3>
+                        <p class="description">Base de salsa de tomate,queso mozarella,pechuga de pollo a la brasa desmechada,bacon,peperoni y oregano.</p>
+                        <p class="price">19.80€</p>
+                    </div>
+                </div>
+
+                <div class="menu-item">
+                    <img src="fotos/pizzaprociuto.jpg" alt="Prosciutto">
+                    <div class="menu-item-content">
+                        <h3>Prosciutto</h3>
+                        <p class="description">base de salsa de tomate,queso mozarellay jamon york</p>
+                        <p class="price">17.80€</p>
+                    </div>
+                </div>
+
+                <div class="menu-item">
+                    <img src="" alt="6 Quesos">
+                    <div class="menu-item-content">
+                        <h3>6 Quesos</h3>
+                        <p class="description">Mozzarella,gorgonzola,parmesano,gouda,pecorino y grana padano.</p>
+                        <p class="price">18.80€</p>
+                    </div>
+                </div>
+
+                <div class="menu-item">
+                    <img src="" alt="tropical">
+                    <div class="menu-item-content">
+                        <h3>tropical</h3>
+                        <p class="description"> base de salsa de tomate,queso mozarella,jamon york,champiñones y piña.</p>
+                        <p class="price">17.80€</p>
+                    </div>
+                </div>
+
+                <div class="menu-item">
+                    <img src="" alt="Carbonara">
+                    <div class="menu-item-content">
+                        <h3>Carbonara</h3>
+                        <p class="description">Bacon,nata y queso mozarella.</p>
+                        <p class="price">17.95€</p>
+                    </div>
+                </div>
+
+                <div class="menu-item">
+                    <img src="" alt="Especial de la casa">
+                    <div class="menu-item-content">
+                        <h3>Especial de la casa</h3>
+                        <p class="description">Salsa de la casa,queso mozarella,champiñones, pullet pork,bacon,peperoni y pimientos</p>
+                        <p class="price">19.50€</p>
+                    </div>
+                </div>
+
+                <div class="menu-item">
+                    <img src="" alt="peperoni">
+                    <div class="menu-item-content">
+                        <h3>peperoni</h3>
+                        <p class="description">base de salsa de tomate,queso mozarella y mucho peperoni.</p>
+                        <p class="price">17.80€</p>
+                    </div>
+                </div>
+
+                <div class="menu-item">
+                    <img src="" alt="Diabola">
+                    <div class="menu-item-content">
+                        <h3>Diabola</h3>
+                        <p class="description">base de salsa de tomate,queso mozarella,carne picada con mojo picon y pimientos</p>
+                        <p class="price">17.80€</p>
+                    </div>
+                </div>
+
+                <div class="menu-item">
+                    <img src="" alt="VIKINGOS">
+                    <div class="menu-item-content">
+                        <h3>VIKINGOS</h3>
+                        <p class="description">base de salsa de tomate, queso mozarella,jamon york,champiñones,piña y atun.</p>
+                        <p class="price">17.80€</p>
+                    </div>
+                </div>
+
+                <div class="menu-item">
+                    <img src="" alt="napolitana">
+                    <div class="menu-item-content">
+                        <h3>napolitana</h3>
+                        <p class="description">balse de salsa de tomate y queso mozraella.</p>
+                        <p class="price">17.90€</p>
+                    </div>
+                </div>
+
+                <div class="menu-item">
+                    <img src="" alt="Vegetariana">
+                    <div class="menu-item-content">
+                        <h3>Vegetariana</h3>
+                        <p class="description">Base de salsa de tomate,queso mozarella,calabazin,cebolla,aceitunas,maiz,champiñones y pimientos.</p>
+                        <p class="price">17.80€</p>
+                    </div>
+                </div>
+
+                <div class="menu-item">
+                    <img src="" alt="Iberica">
+                    <div class="menu-item-content">
+                        <h3>Iberica</h3>
+                        <p class="description">Base de salsa de tomate,queso mozarella,queso manchego,jamon serrano y tomate natural.</p>
+                        <p class="price">18.00€</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección Platos Combinados -->
+        <section id="Platos-Combinados" class="menu-section">
+            <h2>Platos Combinados</h2>
+            <div class="menu-grid">
+                <div class="menu-item">
+                    <img src="" alt="Combinado 1">
+                    <div class="menu-item-content">
+                        <h3> filete de Ternera</h3>
+                        <p class="description">Filete, huevo frito, patatas y ensalada</p>
+                        <p class="price">9.50€</p>
+                    </div>
+                </div>
+
+                <div class="menu-item">
+                    <img src="" alt="Combinado 2">
+                    <div class="menu-item-content">
+                        <h3>filete de Pollo</h3>
+                        <p class="description">Pechuga de pollo,huevo,patatas y ensalada</p>
+                        <p class="price">9.50</p>
+                    </div>
+                </div>
+
+                <div class="menu-item">
+                    <img src="" alt="Combinado 3">
+                    <div class="menu-item-content">
+                        <h3>Bacon</h3>
+                        <p class="description">Bacon,huevo,patatas y ensalada</p>
+                        <p class="price">8.50€</p>
+                    </div>
+                </div>
+
+                <div class="menu-item">
+                    <img src="" alt="Combinado 4">
+                    <div class="menu-item-content">
+                        <h3>Lomo</h3>
+                        <p class="description">Lomo,huevo,ensalada y patatas</p>
+                        <p class="price">9.50</p>
+                    </div>
+                </div>
+
+                <div class="menu-item">
+                    <img src="" alt="Combinado 5">
+                    <div class="menu-item-content">
+                        <h3>Panceta</h3>
+                        <p class="description">panceta,huevos,patatas y ensalada</p>
+                        <p class="price">€</p>
+                    </div>
+                </div>
+
+                <div class="menu-item">
+                    <img src="" alt="Combinado 6">
+                    <div class="menu-item-content">
+                        <h3>Calamares</h3>
+                        <p class="description">Calamares ensalada y patatas</p>
+                        <p class="price">11.50€</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección Sandwiches -->
+        <section id="Sandwiches" class="menu-section">
+            <h2>Sandwiches</h2>
+            <div class="menu-grid">
+                <div class="menu-item">
+                    <img src="" alt="Sandwich Mixto">
+                    <div class="menu-item-content">
+                        <h3>Sandwich Mixto</h3>
+                        <p class="description">Jamón york y queso fundido en pan de molde tostado</p>
+                        <p class="price">3.00€</p>
+                    </div>
+                </div>
+
+                <div class="menu-item">
+                    <img src="" alt="mixto con huevo">
+                    <div class="menu-item-content">
+                        <h3>Mixto con huevo</h3>
+                        <p class="description">Jamón york,queso fundido y huevo en pan de molde tostado</p>
+                        <p class="price">3.50€</p>
+                    </div>
+                </div>
+
+                <div class="menu-item">
+                    <img src="" alt="americano">
+                    <div class="menu-item-content">
+                        <h3>Americano</h3>
+                        <p class="description">Lechuga,tomate,cebolla,jamon york,queso gouda,huevo,bacon y salsa de la casa.</p>
+                        <p class="price">6.00€</p>
+                    </div>
+                </div>
+
+                <div class="menu-item">
+                    <img src="" alt="Vegetal">
+                    <div class="menu-item-content">
+                        <h3>Vegetal</h3>
+                        <p class="description">Lechuga,tomate,cebolla,atun,queso gouda,huevo y salsa de la casa.</p>
+                        <p class="price">6.00€</p>
+                    </div>
+                </div>
+
+                <div class="menu-item">
+                    <img src="" alt="pollo crugiente">
+                    <div class="menu-item-content">
+                        <h3>pollo crugiente</h3>
+                        <p class="description">Lechuga,tomate,cebolla,pepinillos,pollo crugiente,queso gouda,bacon y salsa de la casa.</p>
+                        <p class="price">7.00€</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección Tex-mex -->
+        <section id="Tex-mex" class="menu-section">
+            <h2>Tex-Mex</h2>
+            <div class="menu-grid">
+                <div class="menu-item">
+                    <img src="" alt="nugeets de pollo">
+                    <div class="menu-item-content">
+                        <h3>nugeets de pollo</h3>
+                        <p class="description">Nuggets de pollo con salsa barbacoa</p>
+                        <p class="price">8.00€</p>
+                    </div>
+                </div>
+
+                <div class="menu-item">
+                    <img src="" alt="finger de pollo">
+                    <div class="menu-item-content">
+                        <h3>Fingers de Pollo</h3>
+                        <p class="description">Fingers de pollo con salsa barbacoa</p>
+                        <p class="price">12.00€</p>                   
+                    </div>
+                </div>
+
+                <div class="menu-item">
+                    <img src="" alt="finger de mozarella">
+                    <div class="menu-item-content">
+                        <h3>Fingers de mozarella</h3>
+                        <p class="description">finger de mozarella apanados.</p>
+                        <p class="price">8.00€</p>
+                    </div>
+                </div>
+
+                <div class="menu-item">
+                    <img src="jalapeños rellenos" alt="jalapeños rellenos">
+                    <div class="menu-item-content">
+                        <h3>jalapeños rellenos</h3>
+                        <p class="description">jalapeños apanados rellenos de queso cheddar.</p>
+                        <p class="price">1o.50€</p>
+                    </div>
+                </div>
+
+                <div class="menu-item">
+                    <img src="" alt="Combo Tex-Mex">
+                    <div class="menu-item-content">
+                        <h3>Combo Tex-Mex</h3>
+                        <p class="description">4 Fingers de pollo,4 jalapeños rellenos,4 nuggets de pollo,4 piezas de alitas,4 finger de mozarella y 8 aros de cebolla. </p>
+                        <p class="price">24.00€</p>
+                    </div>    
+                </div>
+
+                <div class="menu-item">
+                    <img src="" alt="Alitas new york">
+                    <div class="menu-item-content">
+                        <h3>Alitas new york</h3>
+                        <p class="description">10 piezas de alitas marinadas en salsa bbq acompañadas con patatas.</p>
+                        <p class="price">11.50€</p>
+                    </div>
+                </div>
+
+                <div class="menu-item">
+                    <img src="" alt="Alitas VIKINGOS">
+                    <div class="menu-item-content">
+                        <h3>Alitas VIKINGOS</h3>
+                        <p class="description">10 piezas de alitas apanadas acompañadas de pico de gallo y patatas</p>
+                        <p class="price">13.50€</p>
+                    </div>
+                </div>
+
+                <div class="menu-item">
+                    <img src="" alt="Aros de cebolla">
+                    <div class="menu-item-content">
+                        <h3>Aros de cebolla</h3>
+                        <p class="description">Aros de cebolla apanados.</p>
+                        <p class="price">7.00€</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    </div>
+    <div class="floating-controls">
+        <button class="theme-toggle">
+            <i class="fas fa-moon"></i>
+        </button>
+        <button class="back-to-top">
+            <i class="fas fa-arrow-up"></i>
+        </button>
+        
+    </div>
+    <div id="itemModal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <img id="modalImage" src="" alt="">
+            <h2 id="modalTitle"></h2>
+            <p id="modalDescription"></p>
+            <p id="modalPrice"></p>
+        </div>
+        
+    </div>
+
+    <script src="script.js" defer></script>
+</body>
+</html>
